@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>secondary</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+   <servlet>
+    <description></description>
+    <display-name>addUserServlet</display-name>
+    <servlet-name>addUserServlet</servlet-name>
+    <servlet-class>servlet.addUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addUserServlet</servlet-name>
+    <url-pattern>/addUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>verifyUserServlet</display-name>
+    <servlet-name>verifyUserServlet</servlet-name>
+    <servlet-class>servlet.verifyUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>verifyUserServlet</servlet-name>
+    <url-pattern>/verifyUserServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>getAllUser</display-name>
+    <servlet-name>getAllUser</servlet-name>
+    <servlet-class>servlet.getAllUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getAllUser</servlet-name>
+    <url-pattern>/getAllUser</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>deleteUserServlet</display-name>
+    <servlet-name>deleteUserServlet</servlet-name>
+    <servlet-class>servlet.deleteUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteUserServlet</servlet-name>
+    <url-pattern>/deleteUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>GetAllProductsServlet</display-name>
+    <servlet-name>GetAllProductsServlet</servlet-name>
+    <servlet-class>servlet.GetAllProductsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAllProductsServlet</servlet-name>
+    <url-pattern>/GetAllProductsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>addProductServlet</display-name>
+    <servlet-name>addProductServlet</servlet-name>
+    <servlet-class>servlet.addProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addProductServlet</servlet-name>
+    <url-pattern>/addProductServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>deleteProductServlet</display-name>
+    <servlet-name>deleteProductServlet</servlet-name>
+    <servlet-class>servlet.deleteProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteProductServlet</servlet-name>
+    <url-pattern>/deleteProductServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>getProductByIdServlet</display-name>
+    <servlet-name>getProductByIdServlet</servlet-name>
+    <servlet-class>servlet.getProductByIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getProductByIdServlet</servlet-name>
+    <url-pattern>/getProductByIdServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>addOrderServlet</display-name>
+    <servlet-name>addOrderServlet</servlet-name>
+    <servlet-class>servlet.addOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addOrderServlet</servlet-name>
+    <url-pattern>/addOrderServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>deleteOrderServlet</display-name>
+    <servlet-name>deleteOrderServlet</servlet-name>
+    <servlet-class>servlet.deleteOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteOrderServlet</servlet-name>
+    <url-pattern>/deleteOrderServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>getAllOrderServlet</display-name>
+    <servlet-name>getAllOrderServlet</servlet-name>
+    <servlet-class>servlet.getAllOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getAllOrderServlet</servlet-name>
+    <url-pattern>/getAllOrderServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>changeOrderstateServlet</display-name>
+    <servlet-name>changeOrderstateServlet</servlet-name>
+    <servlet-class>servlet.changeOrderstateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>changeOrderstateServlet</servlet-name>
+    <url-pattern>/changeOrderstateServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <description></description>
+    <display-name>getAllProductsbytypeServlet</display-name>
+    <servlet-name>getAllProductsbytypeServlet</servlet-name>
+    <servlet-class>servlet.getAllProductsbytypeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getAllProductsbytypeServlet</servlet-name>
+    <url-pattern>/getAllProductsbytypeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>getUserByNameServlet</display-name>
+    <servlet-name>getUserByNameServlet</servlet-name>
+    <servlet-class>servlet.getUserByNameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getUserByNameServlet</servlet-name>
+    <url-pattern>/getUserByNameServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>getProductsByNameServlet</display-name>
+    <servlet-name>getProductsByNameServlet</servlet-name>
+    <servlet-class>servlet.getProductsByNameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getProductsByNameServlet</servlet-name>
+    <url-pattern>/getProductsByNameServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
